@@ -1,2 +1,63 @@
 @import url(global.css);
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: var(--color-neutral-silver);
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    color: var(--color-secondary);
+    transition: 0.3s;
+}
+
+.header-nav ul li a:hover {
+    color: var(--color-primary);
+}
+
+.header-login {
+    display: flex;
+    gap: 14px;
+}
+
+.header-login a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.btn-header-A {
+    background-color: var(--color-neutral-silver);
+    border: 1px solid var(--color-neutral-silver);
+    border-radius: 6px;
+    font-weight: var(--font-weight-medium);
+    color: var(--color-primary);
+    transition: 0.3s;
+}
+
+.btn-header-A:hover {
+    border: 1px solid var(--color-primary);
+}
+
+.btn-header-B {
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    font-weight: var(--font-weight-medium);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-header-B:hover {
+    background-color: var(--color-shade-2);
+}
+
+
