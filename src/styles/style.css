@@ -263,3 +263,30 @@ main {
 .unlock-info a:hover {
     background-color: var(--color-shade-2);
 }
+
+.section-counts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    margin: 48px 0;
+    padding: 64px 0;
+}
+
+.counts-info h2 {
+    font-size: var(--font-size-h2);
+    color: var(--color-neutral-d_grey);
+    line-height: var(--line-height-h2);
+    font-weight: var(--font-weight-semi-bold);
+    width: 408px;
+}
+.counts-info h2 span {
+    color: var(--color-primary);
+}
+
+.counts-info p {
+    font-size: var(--font-size-body-2);
+    color: var(--color-neutral-grey);
+    font-weight: var(--font-weight-regular);
+}
+
