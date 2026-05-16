@@ -363,6 +363,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    height: 506px;
 }
 .updates-info {
     display: flex;
@@ -425,6 +426,11 @@ main {
     font-size: var(--font-size-h4);
     font-weight: var(--font-weight-semi-bold);
     width: 285px;
+    transition: 0.3s;
+}
+
+.card-updates-info a:hover {
+    color: var(--color-shade-2);
 }
 
 .card-updates {
@@ -436,3 +442,144 @@ main {
     top: 190px;
 }
 
+footer {
+    margin-top: 94.6px;
+}
+
+.footer-A {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-neutral-silver);
+    padding: 32px 0;
+    gap: 32px;
+}
+
+.footer-A h2 {
+    text-align: center;
+    font-size: var(--font-size-h1);
+    color: var(--color-neutral-black);
+    width: 887px;
+}
+
+.footer-A a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 178px;
+    padding: 14px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--color-neutral-white);
+    font-size: var(--font-size-body-2);
+    font-weight: var(--font-weight-semi-bold);
+    background-color: var(--color-primary);
+    transition: 0.3s;
+}
+
+.footer-A a:hover {
+    background-color: var(--color-shade-2);
+}
+
+.footer-B {
+    display: flex;
+    background-color: var(--color-neutral-black);
+    align-items: center;
+    justify-content: space-around;
+    padding: 64px 0;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    color: var(--color-neutral-white);
+}
+
+.d-a {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: var(--font-size-body-3);
+    font-weight: var(--font-weight-regular);
+}
+
+.company-info ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.company-info ul a img {
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.company-info ul a img:hover {
+    box-shadow: 0 0 10px 0 var(--color-neutral-white);
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+    color: var(--color-neutral-white);
+}
+.footer-links .company, .support, .footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 12px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: var(--color-neutral-white);
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: var(--color-primary);
+}
+
+.footer-form form, input {
+    background-color: var(--color-neutral-l_grey);
+    border-radius: 8px;
+}
+
+.footer-form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-form form a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 12px;
+}
+
+.footer-form input {
+    padding: 11px 12px;
+}
+
+.footer-form input::placeholder {
+    color: var(--color-neutral-white);
+}
+
+.footer-form form a {
+    transition: 0.3s;
+}
+
+.footer-form form a:hover {
+    transform: translateY(-4px);
+}
