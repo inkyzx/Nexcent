@@ -110,3 +110,40 @@ main {
 }
 
 
+.section-clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 144px;
+    margin: 40px 0;    
+    gap: 16px;
+}
+
+.clients-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.clients-text h2 {
+    font-size: var(--font-size-h2);
+    color: var(--color-neutral-d_grey);
+    font-weight: var(--font-weight-semi-bold);
+    width: 1110px;
+}
+
+.clients-text p {
+    font-size: var(--font-size-body-2);
+    color: var(--color-neutral-grey);
+    font-weight: var(--font-weight-regular);
+}
+
+
+.clients-logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    width: 1152px;
+}
