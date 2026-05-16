@@ -1,0 +1,68 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --color-primary: #4CAF4F;
+    --color-secondary: #263238;
+    --color-info: #2194f3;
+
+    --color-neutral-blackl: #263238;
+    --color-neutral-d_grey: #4D4D4D;
+    --color-neutral-grey: #717171;
+    --color-neutral-_Grey: #89939E;
+    --color-neutral-grey-blue: #ABBED1;
+    --color-neutral-silver: #F5F7FA;
+    --color-neutral-white: #FFFFFF;
+
+    --color-shade-1: #43A046;
+    --color-shade-2: #388E3B;
+    --color-shade-3: #237D31;
+    --color-shade-4: #1B5E1F;
+    --color-shade-5: #103E13;
+
+    --color-tint-1: #66BB69;
+    --color-tint-2: #81C784;
+    --color-tint-3: #A5D6A7;
+    --color-tint-4: #C8E6C9;
+    --color-tint-5: #E8F5E9;
+
+    --color-action-warning: #FBC02D;
+    --color-action-error: #E53835;
+    --color-action-success: #2E7D31;
+
+    --font-weight-semi-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+    --font-size-h1: 64px;
+    --font-size-h2: 36px;
+    --font-size-h3: 28px;
+    --font-size-h4: 20px;
+
+    --font-size-body-1: 18px;
+    --font-size-body-2: 16px;
+    --font-size-body-3: 14px;
+    --font-size-body-4: 12px;
+
+    --line-height-h1: 76px;
+    --line-height-h2: 44px;
+    --line-height-h3: 36px;
+    --line-height-h4: 28px;
+
+    --line-height-body-1: 28px;
+    --line-height-body-2: 24px;
+    --line-height-body-3: 20px;
+    --line-height-body-4: 16px;
+
+    --shadow-2px: 0 2px 4px 0 rgb(171, 190, 209, 0.6);
+    --shadow-4px: 0 4px 8px 0 rgb(171, 190, 209, 0.4);
+    --shadow-6px: 0 6px 12px 0 rgb(171, 190, 209, 0.3);
+    --shadow-8px: 0 8px 16px 0 rgb(171, 190, 209, 0.4);
+    --shadow-16px: 0 16px 32px 0 rgb(171, 190, 209, 0.3);
+}
+
