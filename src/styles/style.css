@@ -247,6 +247,7 @@ main {
     font-size: var(--font-size-body-2);
     color: var(--color-neutral-grey);
     font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-body-3);
 }
 
 .unlock-info a {
@@ -288,5 +289,71 @@ main {
     font-size: var(--font-size-body-2);
     color: var(--color-neutral-grey);
     font-weight: var(--font-weight-regular);
+}
+
+.section-customers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-neutral-silver);
+    padding: 32px 144px;
+    margin: 48px 0;
+    gap: 78px;
+}
+
+.customers-card {
+    display: flex;
+    flex-direction: column;
+    width: 748px;
+    gap: 32px;
+}
+
+.customer-info p {
+    font-size: var(--font-size-body-2);
+    color: var(--color-neutral-grey);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-body-2);
+}
+
+.customer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.customer-info h2 {
+    color: var(--color-primary);
+    font-size: var(--font-size-h4);
+}
+
+.l-p {
+    columns: var(--color-neutral-l_grey);
+    font-weight: var(--font-weight-regular);
+}
+
+.client-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.client-container .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 41px;
+}
+
+.client-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.client-container a:hover {
+    color: var(--color-shade-2);
 }
 
